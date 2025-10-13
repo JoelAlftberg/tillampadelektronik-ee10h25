@@ -417,7 +417,7 @@
 				)
 			)
 			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-				(at 0 0 0)
+				(at -0.254 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -434,7 +434,7 @@
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+				(at 0.254 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5726,6 +5726,12 @@
 		(uuid "5cd5bc44-489f-4a1a-8cbf-390885db582f")
 	)
 	(junction
+		(at 26.67 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67e1a352-c19a-45c6-bc3d-e0607fd12de0")
+	)
+	(junction
 		(at 204.47 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5760,12 +5766,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4c5938d-e00c-4c68-8bb7-687e1312c788")
-	)
-	(junction
-		(at 26.67 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d92982a3-f773-4169-950c-9ede3126669f")
 	)
 	(junction
 		(at 189.23 39.37)
@@ -5831,7 +5831,7 @@
 	)
 	(no_connect
 		(at 34.29 31.75)
-		(uuid "d181157c-7812-47e5-a0cf-9580c905fc86")
+		(uuid "e57d3394-d029-4b4d-8946-02febce8dc43")
 	)
 	(no_connect
 		(at 74.93 29.21)
@@ -6096,6 +6096,16 @@
 			(type dash)
 		)
 		(uuid "237512a6-702b-4dbf-b57a-a11b3bff2f48")
+	)
+	(wire
+		(pts
+			(xy 26.67 26.67) (xy 26.67 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e83c66-2d8b-46f1-a575-070723b2fe3a")
 	)
 	(wire
 		(pts
@@ -7349,16 +7359,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 49.53) (xy 26.67 26.67)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "f8de70cd-e47d-4e80-8f3a-077e9df93aa8")
-	)
-	(wire
-		(pts
 			(xy 231.14 119.38) (xy 237.49 119.38)
 		)
 		(stroke
@@ -7934,7 +7934,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 39.37 39.37 0)
+			(at 39.116 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7951,7 +7951,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 39.37 39.37 0)
+			(at 39.624 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8586,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 241.3 118.11 90)
 			(effects
 				(font
@@ -10038,7 +10038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 241.3 120.65 90)
 			(effects
 				(font
@@ -10174,7 +10174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 241.3 128.27 90)
 			(effects
 				(font
@@ -10462,7 +10462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 241.3 125.73 90)
 			(effects
 				(font
@@ -11997,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 241.3 130.81 90)
 			(effects
 				(font
@@ -12134,7 +12134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "220R"
 			(at 241.3 123.19 90)
 			(effects
 				(font

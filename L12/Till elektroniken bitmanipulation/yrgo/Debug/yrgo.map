@@ -17,13 +17,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 P0/p0.o
  .data          0x0000000000000000        0x0 P0/p0.o
  .bss           0x0000000000000000        0x0 P0/p0.o
- .text.setup_p0
-                0x0000000000000000        0x8 P0/p0.o
- .text.wait     0x0000000000000000       0x1e P0/p0.o
- .text.digital_out_2_on
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_3_on
-                0x0000000000000000        0x8 P0/p0.o
  .text.digital_out_4_on
                 0x0000000000000000        0x8 P0/p0.o
  .text.digital_out_5_on
@@ -38,20 +31,6 @@ Discarded input sections
                 0x0000000000000000        0x8 P0/p0.o
  .text.digital_out_10_on
                 0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_11_on
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_12_on
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_13_on
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_2_off
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_3_off
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_4_off
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_5_off
-                0x0000000000000000        0x8 P0/p0.o
  .text.digital_out_6_off
                 0x0000000000000000        0x8 P0/p0.o
  .text.digital_out_7_off
@@ -62,33 +41,28 @@ Discarded input sections
                 0x0000000000000000        0x8 P0/p0.o
  .text.digital_out_10_off
                 0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_11_off
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_12_off
-                0x0000000000000000        0x8 P0/p0.o
- .text.digital_out_13_off
-                0x0000000000000000        0x8 P0/p0.o
  .text.digital_out
                 0x0000000000000000       0xac P0/p0.o
- .debug_info    0x0000000000000000      0x73a P0/p0.o
- .debug_abbrev  0x0000000000000000      0x100 P0/p0.o
- .debug_loc     0x0000000000000000      0x17f P0/p0.o
- .debug_aranges
-                0x0000000000000000       0xf0 P0/p0.o
- .debug_ranges  0x0000000000000000       0xe0 P0/p0.o
- .debug_line    0x0000000000000000      0x392 P0/p0.o
- .debug_str     0x0000000000000000        0x0 P0/p0.o
- .comment       0x0000000000000000       0x30 P0/p0.o
- .debug_frame   0x0000000000000000      0x1c4 P0/p0.o
  .text          0x0000000000000000        0x0 P1/adc.o
  .data          0x0000000000000000        0x0 P1/adc.o
  .bss           0x0000000000000000        0x0 P1/adc.o
  .text.initiate_pots
                 0x0000000000000000       0x1c P1/adc.o
+ .text.read_pot1
+                0x0000000000000000       0x24 P1/adc.o
  .text.read_pot2
                 0x0000000000000000       0x24 P1/adc.o
  .text.read_temperature
                 0x0000000000000000       0x32 P1/adc.o
+ .debug_info    0x0000000000000000      0x2f5 P1/adc.o
+ .debug_abbrev  0x0000000000000000       0x60 P1/adc.o
+ .debug_aranges
+                0x0000000000000000       0x38 P1/adc.o
+ .debug_ranges  0x0000000000000000       0x28 P1/adc.o
+ .debug_line    0x0000000000000000      0x145 P1/adc.o
+ .debug_str     0x0000000000000000        0x0 P1/adc.o
+ .comment       0x0000000000000000       0x30 P1/adc.o
+ .debug_frame   0x0000000000000000       0x54 P1/adc.o
  .text          0x0000000000000000        0x0 P1/bcd.o
  .data          0x0000000000000000        0x0 P1/bcd.o
  .bss           0x0000000000000000        0x0 P1/bcd.o
@@ -122,21 +96,46 @@ Discarded input sections
  .text          0x0000000000000000        0x0 P1/LED.o
  .data          0x0000000000000000        0x0 P1/LED.o
  .bss           0x0000000000000000        0x0 P1/LED.o
+ .text.led1     0x0000000000000000       0x14 P1/LED.o
  .text.is_led1_on
                 0x0000000000000000        0xc P1/LED.o
  .text.led1_toggle
                 0x0000000000000000       0x18 P1/LED.o
+ .text.led2     0x0000000000000000       0x14 P1/LED.o
  .text.is_led2_on
                 0x0000000000000000        0xc P1/LED.o
  .text.led2_toggle
                 0x0000000000000000       0x18 P1/LED.o
+ .text.led3     0x0000000000000000       0x14 P1/LED.o
+ .text.led      0x0000000000000000       0x72 P1/LED.o
  .text.is_led3_on
                 0x0000000000000000        0xc P1/LED.o
  .text.led3_toggle
                 0x0000000000000000       0x18 P1/LED.o
+ .debug_info    0x0000000000000000      0x556 P1/LED.o
+ .debug_abbrev  0x0000000000000000       0xc7 P1/LED.o
+ .debug_loc     0x0000000000000000      0x24e P1/LED.o
+ .debug_aranges
+                0x0000000000000000       0x68 P1/LED.o
+ .debug_ranges  0x0000000000000000       0x58 P1/LED.o
+ .debug_line    0x0000000000000000      0x23e P1/LED.o
+ .debug_str     0x0000000000000000        0x7 P1/LED.o
+ .comment       0x0000000000000000       0x30 P1/LED.o
+ .debug_frame   0x0000000000000000       0xb4 P1/LED.o
  .text          0x0000000000000000        0x0 P1/p1.o
  .data          0x0000000000000000        0x0 P1/p1.o
  .bss           0x0000000000000000        0x0 P1/p1.o
+ .text.setup_p1
+                0x0000000000000000       0x20 P1/p1.o
+ .debug_info    0x0000000000000000      0x278 P1/p1.o
+ .debug_abbrev  0x0000000000000000       0x46 P1/p1.o
+ .debug_aranges
+                0x0000000000000000       0x20 P1/p1.o
+ .debug_ranges  0x0000000000000000       0x10 P1/p1.o
+ .debug_line    0x0000000000000000       0xa4 P1/p1.o
+ .debug_str     0x0000000000000000        0x0 P1/p1.o
+ .comment       0x0000000000000000       0x30 P1/p1.o
+ .debug_frame   0x0000000000000000       0x24 P1/p1.o
  .text          0x0000000000000000        0x0 P1/relay.o
  .data          0x0000000000000000        0x0 P1/relay.o
  .bss           0x0000000000000000        0x0 P1/relay.o
@@ -455,9 +454,7 @@ END GROUP
  *(.comment)
  .comment       0x0000000000000000       0x2f main.o
                                          0x30 (size before relaxing)
- .comment       0x000000000000002f       0x30 P1/adc.o
- .comment       0x000000000000002f       0x30 P1/LED.o
- .comment       0x000000000000002f       0x30 P1/p1.o
+ .comment       0x000000000000002f       0x30 P0/p0.o
  .comment       0x000000000000002f       0x30 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
  .comment       0x000000000000002f       0x30 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
 
@@ -488,63 +485,48 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000       0xe0
+.debug_aranges  0x0000000000000000      0x110
  *(.debug_aranges)
  .debug_aranges
                 0x0000000000000000       0x20 main.o
  .debug_aranges
-                0x0000000000000020       0x38 P1/adc.o
- .debug_aranges
-                0x0000000000000058       0x68 P1/LED.o
- .debug_aranges
-                0x00000000000000c0       0x20 P1/p1.o
+                0x0000000000000020       0xf0 P0/p0.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x13e0
+.debug_info     0x0000000000000000     0x1187
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
- .debug_info    0x00000000000005f4      0x329 main.o
- .debug_info    0x000000000000091d      0x2f5 P1/adc.o
- .debug_info    0x0000000000000c12      0x556 P1/LED.o
- .debug_info    0x0000000000001168      0x278 P1/p1.o
+ .debug_info    0x00000000000005f4      0x459 main.o
+ .debug_info    0x0000000000000a4d      0x73a P0/p0.o
 
-.debug_abbrev   0x0000000000000000      0x7be
+.debug_abbrev   0x0000000000000000      0x735
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
- .debug_abbrev  0x00000000000005a2       0xaf main.o
- .debug_abbrev  0x0000000000000651       0x60 P1/adc.o
- .debug_abbrev  0x00000000000006b1       0xc7 P1/LED.o
- .debug_abbrev  0x0000000000000778       0x46 P1/p1.o
+ .debug_abbrev  0x00000000000005a2       0x93 main.o
+ .debug_abbrev  0x0000000000000635      0x100 P0/p0.o
 
-.debug_line     0x0000000000000000      0x61d
+.debug_line     0x0000000000000000      0x608
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x137 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
- .debug_line    0x0000000000000137       0xbf main.o
- .debug_line    0x00000000000001f6      0x145 P1/adc.o
- .debug_line    0x000000000000033b      0x23e P1/LED.o
- .debug_line    0x0000000000000579       0xa4 P1/p1.o
+ .debug_line    0x0000000000000137      0x13f main.o
+ .debug_line    0x0000000000000276      0x392 P0/p0.o
 
-.debug_frame    0x0000000000000000      0x150
+.debug_frame    0x0000000000000000      0x1e8
  *(.debug_frame)
  .debug_frame   0x0000000000000000       0x24 main.o
- .debug_frame   0x0000000000000024       0x54 P1/adc.o
- .debug_frame   0x0000000000000078       0xb4 P1/LED.o
- .debug_frame   0x000000000000012c       0x24 P1/p1.o
+ .debug_frame   0x0000000000000024      0x1c4 P0/p0.o
 
-.debug_str      0x0000000000000000      0x222
+.debug_str      0x0000000000000000      0x2ea
  *(.debug_str)
  .debug_str     0x0000000000000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
- .debug_str     0x0000000000000208       0x13 main.o
- .debug_str     0x000000000000021b        0x0 P1/adc.o
- .debug_str     0x000000000000021b        0x7 P1/LED.o
- .debug_str     0x0000000000000222        0x0 P1/p1.o
+ .debug_str     0x0000000000000208       0xe2 main.o
+ .debug_str     0x00000000000002ea        0x0 P0/p0.o
 
-.debug_loc      0x0000000000000000      0x261
+.debug_loc      0x0000000000000000      0x17f
  *(.debug_loc)
- .debug_loc     0x0000000000000000       0x13 main.o
- .debug_loc     0x0000000000000013      0x24e P1/LED.o
+ .debug_loc     0x0000000000000000      0x17f P0/p0.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -564,12 +546,10 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000       0xa0
+.debug_ranges   0x0000000000000000       0xf0
  *(.debug_ranges)
  .debug_ranges  0x0000000000000000       0x10 main.o
- .debug_ranges  0x0000000000000010       0x28 P1/adc.o
- .debug_ranges  0x0000000000000038       0x58 P1/LED.o
- .debug_ranges  0x0000000000000090       0x10 P1/p1.o
+ .debug_ranges  0x0000000000000010       0xe0 P0/p0.o
 
 .debug_macro
  *(.debug_macro)
@@ -582,88 +562,142 @@ LOAD data_init
  .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x40 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
 
-.text.led       0x0000000000000080       0x72
- .text.led      0x0000000000000080       0x72 P1/LED.o
-                0x0000000000000080                led
+.text.main      0x0000000000000080       0x72
+ .text.main     0x0000000000000080       0x72 main.o
+                0x0000000000000080                main
 
-.text.main      0x00000000000000f2       0x3c
- .text.main     0x00000000000000f2       0x3c main.o
-                0x00000000000000f2                main
+.text.wait      0x00000000000000f2       0x1e
+ .text.wait     0x00000000000000f2       0x1e P0/p0.o
+                0x00000000000000f2                wait
 
-.text.read_pot1
-                0x000000000000012e       0x24
- .text.read_pot1
-                0x000000000000012e       0x24 P1/adc.o
-                0x000000000000012e                read_pot1
+.text.exit      0x0000000000000110       0x16
+ .text.exit     0x0000000000000110       0x16 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000110                exit
 
-.text.setup_p1  0x0000000000000152       0x20
- .text.setup_p1
-                0x0000000000000152       0x20 P1/p1.o
-                0x0000000000000152                setup_p1
+.text.setup_p0  0x0000000000000126        0x8
+ .text.setup_p0
+                0x0000000000000126        0x8 P0/p0.o
+                0x0000000000000126                setup_p0
 
-.text.exit      0x0000000000000172       0x16
- .text.exit     0x0000000000000172       0x16 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
-                0x0000000000000172                exit
+.text.digital_out_2_on
+                0x000000000000012e        0x8
+ .text.digital_out_2_on
+                0x000000000000012e        0x8 P0/p0.o
+                0x000000000000012e                digital_out_2_on
 
-.text.led1      0x0000000000000188       0x14
- .text.led1     0x0000000000000188       0x14 P1/LED.o
-                0x0000000000000188                led1
+.text.digital_out_3_on
+                0x0000000000000136        0x8
+ .text.digital_out_3_on
+                0x0000000000000136        0x8 P0/p0.o
+                0x0000000000000136                digital_out_3_on
 
-.text.led2      0x000000000000019c       0x14
- .text.led2     0x000000000000019c       0x14 P1/LED.o
-                0x000000000000019c                led2
+.text.digital_out_11_on
+                0x000000000000013e        0x8
+ .text.digital_out_11_on
+                0x000000000000013e        0x8 P0/p0.o
+                0x000000000000013e                digital_out_11_on
 
-.text.led3      0x00000000000001b0       0x14
- .text.led3     0x00000000000001b0       0x14 P1/LED.o
-                0x00000000000001b0                led3
+.text.digital_out_12_on
+                0x0000000000000146        0x8
+ .text.digital_out_12_on
+                0x0000000000000146        0x8 P0/p0.o
+                0x0000000000000146                digital_out_12_on
 
-.text           0x00000000000001c4        0x4
- .text          0x00000000000001c4        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
-                0x00000000000001c4                __vector_22
-                0x00000000000001c4                __vector_1
-                0x00000000000001c4                __vector_24
-                0x00000000000001c4                __vector_12
-                0x00000000000001c4                __bad_interrupt
-                0x00000000000001c4                __vector_6
-                0x00000000000001c4                __vector_3
-                0x00000000000001c4                __vector_23
-                0x00000000000001c4                __vector_25
-                0x00000000000001c4                __vector_11
-                0x00000000000001c4                __vector_13
-                0x00000000000001c4                __vector_17
-                0x00000000000001c4                __vector_19
-                0x00000000000001c4                __vector_7
-                0x00000000000001c4                __vector_5
-                0x00000000000001c4                __vector_4
-                0x00000000000001c4                __vector_9
-                0x00000000000001c4                __vector_2
-                0x00000000000001c4                __vector_21
-                0x00000000000001c4                __vector_15
-                0x00000000000001c4                __vector_8
-                0x00000000000001c4                __vector_14
-                0x00000000000001c4                __vector_10
-                0x00000000000001c4                __vector_16
-                0x00000000000001c4                __vector_18
-                0x00000000000001c4                __vector_20
+.text.digital_out_13_on
+                0x000000000000014e        0x8
+ .text.digital_out_13_on
+                0x000000000000014e        0x8 P0/p0.o
+                0x000000000000014e                digital_out_13_on
 
-.text._Exit     0x00000000000001c8        0x4
- .text._Exit    0x00000000000001c8        0x4 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
-                0x00000000000001c8                _Exit
+.text.digital_out_2_off
+                0x0000000000000156        0x8
+ .text.digital_out_2_off
+                0x0000000000000156        0x8 P0/p0.o
+                0x0000000000000156                digital_out_2_off
+
+.text.digital_out_3_off
+                0x000000000000015e        0x8
+ .text.digital_out_3_off
+                0x000000000000015e        0x8 P0/p0.o
+                0x000000000000015e                digital_out_3_off
+
+.text.digital_out_4_off
+                0x0000000000000166        0x8
+ .text.digital_out_4_off
+                0x0000000000000166        0x8 P0/p0.o
+                0x0000000000000166                digital_out_4_off
+
+.text.digital_out_5_off
+                0x000000000000016e        0x8
+ .text.digital_out_5_off
+                0x000000000000016e        0x8 P0/p0.o
+                0x000000000000016e                digital_out_5_off
+
+.text.digital_out_11_off
+                0x0000000000000176        0x8
+ .text.digital_out_11_off
+                0x0000000000000176        0x8 P0/p0.o
+                0x0000000000000176                digital_out_11_off
+
+.text.digital_out_12_off
+                0x000000000000017e        0x8
+ .text.digital_out_12_off
+                0x000000000000017e        0x8 P0/p0.o
+                0x000000000000017e                digital_out_12_off
+
+.text.digital_out_13_off
+                0x0000000000000186        0x8
+ .text.digital_out_13_off
+                0x0000000000000186        0x8 P0/p0.o
+                0x0000000000000186                digital_out_13_off
+
+.text           0x000000000000018e        0x4
+ .text          0x000000000000018e        0x4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/xc8/avr/lib/avr5/memx-const/crtatmega328p.o
+                0x000000000000018e                __vector_22
+                0x000000000000018e                __vector_1
+                0x000000000000018e                __vector_24
+                0x000000000000018e                __vector_12
+                0x000000000000018e                __bad_interrupt
+                0x000000000000018e                __vector_6
+                0x000000000000018e                __vector_3
+                0x000000000000018e                __vector_23
+                0x000000000000018e                __vector_25
+                0x000000000000018e                __vector_11
+                0x000000000000018e                __vector_13
+                0x000000000000018e                __vector_17
+                0x000000000000018e                __vector_19
+                0x000000000000018e                __vector_7
+                0x000000000000018e                __vector_5
+                0x000000000000018e                __vector_4
+                0x000000000000018e                __vector_9
+                0x000000000000018e                __vector_2
+                0x000000000000018e                __vector_21
+                0x000000000000018e                __vector_15
+                0x000000000000018e                __vector_8
+                0x000000000000018e                __vector_14
+                0x000000000000018e                __vector_10
+                0x000000000000018e                __vector_16
+                0x000000000000018e                __vector_18
+                0x000000000000018e                __vector_20
+
+.text._Exit     0x0000000000000192        0x4
+ .text._Exit    0x0000000000000192        0x4 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(_Exit.o)
+                0x0000000000000192                _Exit
 
 .text.__dummy_fini
-                0x00000000000001cc        0x2
+                0x0000000000000196        0x2
  .text.__dummy_fini
-                0x00000000000001cc        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
-                0x00000000000001cc                _fini
+                0x0000000000000196        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000196                _fini
 
 .text.__dummy_funcs_on_exit
-                0x00000000000001ce        0x2
+                0x0000000000000198        0x2
  .text.__dummy_funcs_on_exit
-                0x00000000000001ce        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
-                0x00000000000001ce                __funcs_on_exit
+                0x0000000000000198        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x0000000000000198                __funcs_on_exit
 
 .text.__dummy_simulator_exit
-                0x00000000000001d0        0x2
+                0x000000000000019a        0x2
  .text.__dummy_simulator_exit
-                0x00000000000001d0        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
-                0x00000000000001d0                __simulator_exit
+                0x000000000000019a        0x2 c:/program files/microchip/xc8/v2.36/avr/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5/memx-const\libc.a(exit.o)
+                0x000000000000019a                __simulator_exit
